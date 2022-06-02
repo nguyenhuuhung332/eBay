@@ -1,0 +1,67 @@
+@media only screen and (max-width: 600px){
+    .header{display: none;}
+    .banner{display: none;}
+    .layout{display: none;}
+    .layout-left{display: none;}
+    .layout-right{display: none;}
+    .footer{display: none;}
+    
+    .header-mobile{display: block;width: 100%;padding: 23px;border-bottom: 1px solid #e5e5e5;
+       }
+    .header-mb-first{display: flex;justify-content: space-between;align-items: center;margin-bottom: 10px;}
+    .header-mb-first div i{font-size: 20px;}
+    .fa-cart-shopping{font-size: 20px;margin: 0 30;}
+    .left-img{width: 13%;}
+    .header-location{color:#3665f3; margin-top: 10px;}
+    .ebay-samsung{margin-top: 20px;font-size: 11px;}
+    .list-product{overflow-x: scroll;max-width: 500px;}
+    
+    
+    .header-mb-second{border: 1px solid black;border-radius: 0;display: flex;}
+    .header-mb-second input{font-size: 17px;}
+    .header-mb-second button{background-color: #006efc;padding: 0 14px;border: none;}
+    .fa-magnifying-glass{color: white;padding: 0;}
+    .layout-mb{display: block;padding: 23px;}
+    .slide-2-mb{background: white;
+        font-size: 14px;
+        background-color: #E62048;
+    }
+    .item-1{font-weight: 600;}
+    .item-2{font-size: 15px;}
+    .slider-2-left{flex-direction: column;align-items: flex-start;padding: 23px;}
+    .slider-2-left button{background-color: #E62048;color: white;border: none;padding: 0;margin: 10 0;}
+    .brand-heading h2{font-size: 20px;margin-bottom: 20px;}
+    .brand-heading-1 h2{font-size: 20px;margin-bottom: 20px;}
+    .brand-heading-2 h2{font-size: 20px;margin-bottom: 20px;}
+    .brand-heading-3-mb h2{font-size: 20px;margin-bottom: 40px;padding: 23 23 0 23;}
+    .samsung {overflow: scroll;margin-bottom: 35px;}
+    .samsung ul{list-style: none;
+        width: 600px;
+        padding: 0;    
+     display: flex;}
+    .samsung ul li span{font-weight: 600;}
+    .daily-deals{overflow: scroll;margin-bottom: 35px}
+    .daily-deals ul{list-style: none;
+        width: 600px;
+        padding: 0;
+        display: flex;}
+        .daily-deals ul li span{font-weight: 600;}
+    .brand-product-1{margin-bottom: 35px}
+    .footer-mb{display: block;}
+
+    .banner-1-mb{display: block;}
+    .brand-heading-3-mb{display: block;}
+    .brand-product-mb{display: block;padding: 0 23 23 23;}
+    
+    /* footer   */
+
+.footer-mb{display: block;}
+.footer-mb-1{background-color: black;color: white;padding-top: 10px;}
+.footer-mb div ul{list-style: none;color: white;padding: 0;}
+.footer-mb div ul li{margin-top: 10px;margin-left: 10px;}
+.footer-mb-2{text-align: center;margin-top: 30px;color: #c7c7c7;border-top: 1px solid #c7c7c7;}
+.footer-mb-2 div{margin-top: 10px;}
+.slide-2-mb{display: block;}
+img {
+    width: 100% !important;}
+}

@@ -1,0 +1,504 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/stylemobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="ebay">
+        <div class="header">
+            <div class="header-first">
+                <div class="container">
+                    <div class="row">
+                        <div class="col left">
+                            <ul>
+                                <li> Hi! <span>Sign in</span> or <span>register</span></li>
+                                <li class="li-note"> Daily Deals</li>
+                                <li>Help & Contact</li>
+                            </ul>
+                        </div>
+                        <div class="col right">
+                            <ul>
+                                <li>Ship to</li>
+                                <li>Sell</li>
+                                <li>
+                                    Watchlist <i class="fa-solid fa-chevron-down"></i>
+                                </li>
+                                <li> My Ebay <i class="fa-solid fa-chevron-down"></i></li>
+                                <li><i class="fa-solid fa-bell"></i></li>
+                                <li><i class="fa-solid fa-cart-shopping"></i></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="header-second">
+                <div class="container second-container">
+
+                    <div class="second-left">
+                        <div class="second-left-item">
+                            <div class="left-img">
+                                <img src="./images/ebay.png" alt="">
+                            </div>
+                            <div class="left-btn">
+                                <button>SHOP by category</button>
+                                <i class="fa-solid fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="second-center">
+                        <div class="second-center-item">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername2"
+                                placeholder="Searching for anything">
+                            <select class="custom-select">
+                                <option selected>All Categories</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="second-right">
+                        <div class="second-right-item">
+                            <button>Search</button>
+                            <span>Advanced</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- mobile-header  -->
+        <div class="container header-mobile">
+            <div class="header-mb-first">
+                <div class="left-img">
+                    <img src="./images/ebay.png" alt="">
+                </div>
+                <div>
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="header-mb-second">
+                <input type="text" class="form-control" id="inlineFormInputGroupUsername2"
+                    placeholder="Searching for anything">
+                <button> <i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="header-location"><i class="fa-solid fa-location-dot"></i> Ship to</div>
+        </div>
+        <!-- end mobile-header -->
+        <div class="layout">
+            <div class="container nav-bar">
+                <ul>
+                    <li class="">Home</li>
+                    <li class=""><i class="fa-solid fa-heart"></i> Saved</li>
+                    <li class="">Electronics</li>
+                    <li class="">Fashion</li>
+                    <li class="">Health & Beauty</li>
+                    <li class="">Home & Garden</li>
+                    <li class="">Sports</li>
+                    <li class="">Collectibles and Art</li>
+                    <li class="">Inductrial equipment</li>
+                    <li class="">Motors</li>
+                    <li class="">Deals</li>
+                    <li class="">Sell</li>
+                </ul>
+            </div>
+            <div class="container slide">
+                <div class="slide-left">
+                    <h1>Enjoy 15%* off!</h1>
+                    <h2>Save on items from our top sellers</h2>
+                    <h3>click to copy coupon</h3>
+                    <button>BESTSELLER15</button>
+                    <h3>15% off, $20 min,$50 max, 5x use</h3>
+                </div>
+                <div class="slide-right"></div>
+            </div>
+            <div class="container slide-2">
+                <div class="slider-2-left">
+                    <h2>15%</h2>
+                    <div class="item">
+                        <div class="item-1">Enjoy 15% off!</div>
+                        <div class="item-2">Enter BESTSELLER15 to save on items from our top sellers | *Terms &
+                            Conditions</div>
+                    </div>
+                </div>
+                <div class="slider-2-right">
+                    <button>Clam coupon <i class="fa-solid fa-arrow-right"></i> </button>
+                </div>
+            </div>
+            <div class="container list-brand">
+                <div class="brand-heading">
+                    <h2>Explore Popular Brands</h2>
+                    <span>See all <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="brand-product">
+                    <div class="row">
+                        <div class="col 1">
+                            <div class="col-1-img"><img src="./images/iphone.webp" alt=""></div>
+                            <span>Apple</span>
+                        </div>
+                        <div class="col 2">
+                            <div class="col-1-img"><img src="./images/samsung.webp" alt=""></div>
+                            <span>Samsung</span>
+                        </div>
+                        <div class="col 3">
+                            <div class="col-1-img"><img src="./images/sony.webp" alt=""></div>
+                            <span>Sony</span>
+                        </div>
+                        <div class="col 4">
+                            <div class="col-1-img"><img src="./images/ugreen.webp" alt=""></div>
+                            <span>Ugreen</span>
+                        </div>
+                        <div class="col 5">
+                            <div class="col-1-img"><img src="./images/nike.webp" alt=""></div>
+                            <span>Nike</span>
+                        </div>
+                        <div class="col 6">
+                            <div class="col-1-img"><img src="./images/pretty.webp" alt=""></div>
+                            <span>Born Pretty</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand-heading-1">
+                    <h2>Explore Popular Categories</h2>
+                    <span>See all <i class="fa-solid fa-arrow-right"></i></span>
+                </div>
+                <div class="brand-product-1">
+                    <div class="row">
+                        <div class="col 1">
+                            <div class="col-1-img"><img src="./images/sneeker.webp" alt=""></div>
+                            <span>Sneeker</span>
+                        </div>
+                        <div class="col 2">
+                            <div class="col-1-img"><img src="./images/korean beauty.webp" alt=""></div>
+                            <span>Korean beauty</span>
+                        </div>
+                        <div class="col 3">
+                            <div class="col-1-img"><img src="./images/watchees.webp" alt=""></div>
+                            <span>Wristwatches</span>
+                        </div>
+                        <div class="col 4">
+                            <div class="col-1-img"><img src="./images/fish.webp" alt=""></div>
+                            <span>Fishing</span>
+                        </div>
+                        <div class="col 5">
+                            <div class="col-1-img"><img src="./images/collect.webp" alt=""></div>
+                            <span>Collectibles</span>
+                        </div>
+                        <div class="col 6">
+                            <div class="col-1-img"><img src="./images/smartphone.webp" alt=""></div>
+                            <span>smartphone</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="brand-heading-2">
+                    <h2>Fine Necklaces & Pendants</h2>
+                    <span>See all <i class="fa-solid fa-arrow-right"></i></span>
+
+                </div>
+                <h6>Recommended for you</h6>
+                <div id="carouselExampleControls" class="carousel slide" data-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <ul class="silder-one">
+                                <li>
+                                    <div><img src="./images/ao-1.webp" alt=""></div>
+                                    <span>1,104,418.60 VND</span>
+                                </li>
+                                <li>
+                                    <div><img src="./images/ao 2.webp" alt=""></div>
+                                    <span>1,104,418.60 VND</span>
+                                </li>
+                                <li>
+                                    <div> <img src="./images/ao 3.webp" alt=""></div>
+                                    <span>1,104,418.60 VND</span>
+                                </li>
+                                <li>
+                                    <div> <img src="./images/ao5.webp" alt=""></div>
+                                    <span>1,104,418.60 VND</span>
+                                </li>
+                                <li>
+                                    <div> <img src="./images/ao 9.webp" alt=""></div>
+                                    <span>1,104,418.60 VND</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="carousel-item ">
+                            <ul class="silder-two">
+                                <li>
+                                    <div><img src="./images/ao6.webp" alt=""></div>
+                                    <span>1,104,418.60 VND</span>
+                                </li>
+                                <li>
+                                    <div><img src="./images/ao7.webp" alt=""></div>
+                                    <span>1,104,418.60 VND</span>
+                                </li>
+                                <li>
+                                    <div> <img src="./images/ao8.webp" alt=""></div>
+                                    <span>1,104,418.60 VND</span>
+                                </li>
+                                <li>
+                                    <div> <img src="./images/ao 9.webp" alt=""></div>
+                                    <span>1,104,418.60 VND</span>
+                                </li>
+                                <li>
+                                    <div> <img src="./images/ao10.webp" alt=""></div>
+                                    <span>1,104,418.60 VND</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleControls"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleControls"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- layout-mobile  -->
+        <div class="container slide-2-mb">
+            <div class="slider-2-left">
+                <div class="item-1">Enjoy 15% off!</div>
+                <div class="item-2">Enter BESTSELLER15 to save on items from our top sellers </div>
+                <button>Clam coupon <i class="fa-solid fa-arrow-right"></i> </button>
+                <div>*Terms & Conditions</div>
+            </div>
+        </div>
+        <div class="layout-mb">
+            <div class="brand-heading">
+                <h2>Cell phone & smartphone <i class="fa-solid fa-arrow-right"></i></h2>
+            </div>
+            <div class="samsung">
+                <ul>
+                    <li>
+                        <div><img src="./images/samsung.jpg" alt=""></div>
+                        <span>5,581,162 VND</span>
+                    </li>
+                    <li>
+                        <div><img src="./images/samsung.jpg" alt=""></div>
+                        <span>5,581,162 VND</span>
+                    </li>
+                    <li>
+                        <div><img src="./images/samsung.jpg" alt=""></div>
+                        <span>5,581,162 VND</span>
+                    </li>
+                    <li>
+                        <div><img src="./images/samsung.jpg" alt=""></div>
+                        <span>5,581,162 VND</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="brand-heading-1">
+                <h2>Explore Popular Categories <i class="fa-solid fa-arrow-right"></i></h2>
+
+            </div>
+            <div class="brand-product-1">
+                <div class="row">
+                    <div class="col 1">
+                        <div class="col-1-img"><img src="./images/sneeker.webp" alt=""></div>
+                        <span>Sneeker</span>
+                    </div>
+                    <div class="col 2">
+                        <div class="col-1-img"><img src="./images/korean beauty.webp" alt=""></div>
+                        <span>Korean beauty</span>
+                    </div>
+                    <div class="col 3">
+                        <div class="col-1-img"><img src="./images/watchees.webp" alt=""></div>
+                        <span>Wristwatches</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col 4">
+                        <div class="col-1-img"><img src="./images/fish.webp" alt=""></div>
+                        <span>Fishing</span>
+                    </div>
+                    <div class="col 5">
+                        <div class="col-1-img"><img src="./images/collect.webp" alt=""></div>
+                        <span>Collectibles</span>
+                    </div>
+                    <div class="col 6">
+                        <div class="col-1-img"><img src="./images/smartphone.webp" alt=""></div>
+                        <span>smartphone</span>
+                    </div>
+                </div>
+            </div>
+            <div class="brand-heading-2">
+                <h2>Daily Deals <i class="fa-solid fa-arrow-right"></i></h2>
+
+            </div>
+
+            <div class="daily-deals">
+                <ul>
+                    <li>
+                        <div><img src="./images/laptop.webp" alt=""></div>
+                        <span>1,581,162 VND</span>
+                    </li>
+                    <li>
+                        <div><img src="./images/laptop.webp" alt=""></div>
+                        <span>1,581,162 VND</span>
+                    </li>
+                    <li>
+                        <div><img src="./images/laptop.webp" alt=""></div>
+                        <span>1,581,162 VND</span>
+                    </li>
+                    <li>
+                        <div><img src="./images/laptop.webp" alt=""></div>
+                        <span>1,581,162 VND</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="banner-1-mb">
+            <div><img src="./images/banner15.webp" alt=""></div>
+        </div>
+        <div class="brand-heading-3-mb">
+            <h2>Explore Popular Brands <i class="fa-solid fa-arrow-right"></i></h2>
+        </div>
+        <div class="brand-product-mb">
+            <div class="row">
+                <div class="col 1">
+                    <div class="col-1-img"><img src="./images/iphone.webp" alt=""></div>
+                    <span>Apple</span>
+                </div>
+                <div class="col 2">
+                    <div class="col-1-img"><img src="./images/samsung.webp" alt=""></div>
+                    <span>Samsung</span>
+                </div>
+                <div class="col 3">
+                    <div class="col-1-img"><img src="./images/sony.webp" alt=""></div>
+                    <span>Sony</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col 4">
+                    <div class="col-1-img"><img src="./images/ugreen.webp" alt=""></div>
+                    <span>Ugreen</span>
+                </div>
+                <div class="col 5">
+                    <div class="col-1-img"><img src="./images/nike.webp" alt=""></div>
+                    <span>Nike</span>
+                </div>
+                <div class="col 6">
+                    <div class="col-1-img"><img src="./images/pretty.webp" alt=""></div>
+                    <span>Born Pretty</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- ebay -->
+        <div class="container footer">
+            <div class="">
+                <h3>Buy</h3>
+                <ul>
+                    <li> Registratio </li>
+                    <li>eBay Money Back Guarantee</li>
+                    <li>Bidding & buying help</li>
+                    <li>Stores</li>
+                </ul>
+            </div>
+            <div class="">
+                <h3>Sell</h3>
+                <ul>
+                    <li>Start Selling</li>
+                    <li>Learn to sell</li>
+                    <li>Affiliates</li>
+                </ul>
+                <h3>Tool & apps</h3>
+                <ul>
+                    <li class="">Developers</li>
+                    <li class="">Security center</li>
+                    <li class="">Site Map</li>
+                </ul>
+            </div>
+            <div class="">
+                <h3>Stay connected</h3>
+                <ul>
+                    <li>eBay blog</li>
+                    <li>
+                        <i class="fa-brands fa-facebook"></i>
+                        <span>Facebook</span>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-twitter"></i>
+                        <span>Twitter</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="">
+                <h3>About ebay</h3>
+                <ul>
+                    <li>Company info</li>
+                    <li>News</li>
+                    <li>Investors</li>
+                    <li>Careers</li>
+                    <li>Government relations</li>
+                    <li>Advertise with us</li>
+                    <li>Policies</li>
+                    <li>Verified Rights Owner (VeRO) Program</li>
+                </ul>
+            </div>
+            <div class="">
+                <h3>Help & contact</h3>
+                <ul>
+                    <li>Seller Information Center</li>
+                    <li>Contact us</li>
+                </ul>
+                <h3>Community</h3>
+                <ul>
+                    <li>Announcements</li>
+                    <li>Discussion boards</li>
+                    <li>eBay Giving Works</li>
+                </ul>
+                <h3>eBay Sites</h3>
+            </div>
+        </div>
+        <div class="footer-mb">
+            <div class="footer-mb-1">
+                <div>
+                    <ul>
+                        <li>Home</li>
+
+                        <li>Sign in/Register</li>
+                        <li>Sell an item</li>
+                        <li>Help & Contact</li>
+                        <li>Download the free eBay app</li>
+                    </ul>
+                </div>
+                <div class="footer-mb-2">
+                    <div>Site map, User Agreement,Privacy,Cookies & Adchoice</div>
+                    <div>@1995-2022 eBay Inc.</div>
+                    <div>Mobile/Classic Site</div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
